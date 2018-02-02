@@ -1,15 +1,16 @@
 # android-lifecycle-check
 A tiny minimal app for Android, with which I assured myself that
 
-* AppCompatActivity restarts
+* Activity restarts (actually I checked AppCompatActivity)
 * Fragment survives
 
-during runtime configuration changes, e.g.
+during such runtime configuration changes as
 
-* in screen orientation
-** from portrait to landscape
-** landscape to portrait
-* in multi-window feature
-** single to dual
-** dual to single
-** resize in dual
+screen orientation
+* from portrait to landscape
+* landscape to portrait
+
+multi-window feature
+* single to dual
+* dual to single
+* resize in dual
