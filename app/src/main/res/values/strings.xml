@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LifeCycle</string>
+    <string name="activity_count">Activity %1$d</string>
+    <string name="fragment_count">Fragment %1$d</string>
 </resources>
