@@ -2,6 +2,7 @@ package com.example.android_lifecycle_check;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         String text = getResources().getString(R.string.activity_count, mCount);
         TextView textView = findViewById(R.id.activity_text);
         textView.setText(text);
+        textView.startAnimation(AnimationUtils.loadAnimation(this,R.anim.count_animation));
     }
 
     @Override
